@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Querys\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\galdino.bloodOrange.application.shared\galdino.bloodOrange.application.shared.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMock" Version="1.0.3.2" />
+    <PackageReference Include="AutoMoq" Version="2.0.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.2.0" />
+    <PackageReference Include="xunit" Version="2.4.0" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.0" />
+    <PackageReference Include="coverlet.collector" Version="1.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\galdino.bloodOrange.api_v1\galdino.bloodOrange.api_v1.csproj" />
+    <ProjectReference Include="..\galdino.bloodOrange.application.shared\galdino.bloodOrange.application.shared.csproj" />
+    <ProjectReference Include="..\galdino.bloodOrange.application\galdino.bloodOrange.application.csproj" />
+    <ProjectReference Include="..\galdino.bloodOrange.data.persistence\galdino.bloodOrange.data.persistence.csproj" />
+    <ProjectReference Include="..\galdino.bloodOrange.utils\galdino.bloodOrange.utils.csproj" />
+    <ProjectReference Include="..\galdino.bloodOrnage.application.core\galdino.bloodOrnage.application.core.csproj" />
+  </ItemGroup>
+
+</Project>

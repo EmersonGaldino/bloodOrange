@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>galdino.bloodOrange.api_v1</name>
+    </assembly>
+    <members>
+        <member name="M:galdino.bloodOrange.api_v1.Controllers.Account.AccountController.LaunchDispenseAccountAsync(galdino.bloodOrange.api_v1.Models.ViewModel.Launch.LaunchViewModel,galdino.bloodOrange.application.Interface.IAccount.IAccountAppService)">
+            <summary>
+            Executa o debito na conta indicada, se houver saldo suficiente para tal.
+            </summary>
+            <response code="200">Debito em conta</response>
+            <response code="400">Se os parametros do metodo estiverem nulos</response> 
+            <response code="401">Acesso negado</response> 
+            <response code="409">Se alguma regra de negocio for violada</response> 
+            <response code="500">Erro interno desconhecido</response> 
+        </member>
+        <member name="M:galdino.bloodOrange.api_v1.Controllers.Auth.AuthenticationController.Login(galdino.bloodOrange.api_v1.Models.ViewModel.User.UserViewModel,galdino.bloodOrange.application.shared.Confiugrations.Token.TokenConfigurations,galdino.bloodOrange.api_v1.Security.SignConfigurationToken,galdino.bloodOrange.application.Interface.IUser.IUserAppService)">
+            <summary>
+            Retorna token de acesso ao usuario se o mesmo for validado corretamente
+            </summary>
+            <response code="200">Token de acesso a aplicacao</response>
+            <response code="400">Se os parametros do metodo estiverem nulos</response> 
+            <response code="401">Acesso negado</response> 
+            <response code="409">Se alguma regra de negocio for violada</response> 
+            <response code="500">Erro interno desconhecido</response> 
+        </member>
+        <member name="P:galdino.bloodOrange.api_v1.Models.ViewModel.Launch.LaunchViewModel.AccountDebit">
+            <summary>
+            Codigo da conta que sera debitado o valor
+            </summary>
+            <example>32156513sad</example>
+        </member>
+        <member name="P:galdino.bloodOrange.api_v1.Models.ViewModel.Launch.LaunchViewModel.AccountCredit">
+            <summary>
+            Codigo da conta que sera creditado o valor
+            </summary>
+            <example>32156513sad</example>
+        </member>
+        <member name="P:galdino.bloodOrange.api_v1.Models.ViewModel.Launch.LaunchViewModel.Value">
+            <summary>
+            Valor a ser debitado e creditado em outra conta
+            </summary>
+            <example>127.50</example>
+        </member>
+        <member name="P:galdino.bloodOrange.api_v1.Models.ViewModel.User.UserViewModel.Login">
+            <summary>
+            Seu usuário do sistema
+            </summary>
+            <example>Galdino</example>
+        </member>
+        <member name="P:galdino.bloodOrange.api_v1.Models.ViewModel.User.UserViewModel.Password">
+            <summary>
+            Sua senha cadastrada no sistema
+            </summary>
+            <example>123456</example>
+        </member>
+    </members>
+</doc>

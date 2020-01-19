@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>D:\Projetos\Particular\BackEnd\galdino.bloodOrange\galdino.bloodOrange.api_v1\galdino.bloodOrange.api_v1.xml</DocumentationFile>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="9.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.9.10" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.4" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="4.0.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUi" Version="4.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\galdino.bloodOrange.application\galdino.bloodOrange.application.csproj" />
+    <ProjectReference Include="..\galdino.bloodOrange.data.persistence\galdino.bloodOrange.data.persistence.csproj" />
+    <ProjectReference Include="..\galdino.bloodOrange.utils\galdino.bloodOrange.utils.csproj" />
+    <ProjectReference Include="..\galdino.bloodOrnage.application.core\galdino.bloodOrnage.application.core.csproj" />
+  </ItemGroup>
+
+</Project>

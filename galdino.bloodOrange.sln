@@ -1,0 +1,97 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - Presnetation", "01 - Presnetation", "{77E0E8EE-72B4-4D23-B121-8DE6DE79A3EA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.1 - API", "1.1 - API", "{021BD1B5-AD9B-4C95-B2D0-27CB53C986F3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - Application", "02 - Application", "{7C080E12-69A2-43BE-8EC8-0CF4E0BAF66D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 - Domain", "03 - Domain", "{A2F0C8DF-CC3D-4958-B13C-B3DBFA63F822}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 - Infra", "04 - Infra", "{71C5E17C-4F6A-469A-9684-26ECC6B8F7A2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.1 - Core", "3.1 - Core", "{46F91FEB-D628-4161-9ED2-4BBA09778C38}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.2 - Shared", "3.2 - Shared", "{949EF337-BD3E-46E9-A1D2-7A0802156431}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1 - Data", "4.1 - Data", "{01AE8347-23C5-4668-90FC-B7637C93D9BA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1 - Persistence", "4.1 - Persistence", "{966A8F14-6BA2-4939-B7DA-E5DC7873F5CA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05 - Utils", "05 - Utils", "{8B658B1E-650C-404C-A11F-B7440D308903}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06 - Test", "06 - Test", "{32807428-C068-4AAF-9796-73A1BEC316B7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "galdino.bloodOrange.application", "galdino.bloodOrange.application\galdino.bloodOrange.application.csproj", "{A7D5FA77-C585-4476-9A34-3E806476F86F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "galdino.bloodOrnage.application.core", "galdino.bloodOrnage.application.core\galdino.bloodOrnage.application.core.csproj", "{58CB2319-340F-4D1D-88AB-26739C89D951}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "galdino.bloodOrange.application.shared", "galdino.bloodOrange.application.shared\galdino.bloodOrange.application.shared.csproj", "{63C611FA-2ABB-488C-90EC-93C554EB7CE8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "galdino.bloodOrange.data.persistence", "galdino.bloodOrange.data.persistence\galdino.bloodOrange.data.persistence.csproj", "{CD2A8054-64F9-48E0-8EE9-7541131AB3BA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "galdino.bloodOrange.utils", "galdino.bloodOrange.utils\galdino.bloodOrange.utils.csproj", "{D3D6F7E8-56EA-46BA-82DE-EEC74901D224}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "galdino.bloodOrange.api_v1", "galdino.bloodOrange.api_v1\galdino.bloodOrange.api_v1.csproj", "{9A0954CB-4ABD-4E83-A05D-95623B7C2A88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "galdino.bloodOrange.Test", "galdino.bloodOrange.Test\galdino.bloodOrange.Test.csproj", "{33ED9DDD-9EE0-4FF3-A37D-2480DF85113A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7D5FA77-C585-4476-9A34-3E806476F86F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7D5FA77-C585-4476-9A34-3E806476F86F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7D5FA77-C585-4476-9A34-3E806476F86F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7D5FA77-C585-4476-9A34-3E806476F86F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58CB2319-340F-4D1D-88AB-26739C89D951}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58CB2319-340F-4D1D-88AB-26739C89D951}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58CB2319-340F-4D1D-88AB-26739C89D951}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58CB2319-340F-4D1D-88AB-26739C89D951}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63C611FA-2ABB-488C-90EC-93C554EB7CE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63C611FA-2ABB-488C-90EC-93C554EB7CE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63C611FA-2ABB-488C-90EC-93C554EB7CE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63C611FA-2ABB-488C-90EC-93C554EB7CE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD2A8054-64F9-48E0-8EE9-7541131AB3BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD2A8054-64F9-48E0-8EE9-7541131AB3BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD2A8054-64F9-48E0-8EE9-7541131AB3BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD2A8054-64F9-48E0-8EE9-7541131AB3BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3D6F7E8-56EA-46BA-82DE-EEC74901D224}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3D6F7E8-56EA-46BA-82DE-EEC74901D224}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3D6F7E8-56EA-46BA-82DE-EEC74901D224}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3D6F7E8-56EA-46BA-82DE-EEC74901D224}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A0954CB-4ABD-4E83-A05D-95623B7C2A88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A0954CB-4ABD-4E83-A05D-95623B7C2A88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A0954CB-4ABD-4E83-A05D-95623B7C2A88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A0954CB-4ABD-4E83-A05D-95623B7C2A88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33ED9DDD-9EE0-4FF3-A37D-2480DF85113A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33ED9DDD-9EE0-4FF3-A37D-2480DF85113A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33ED9DDD-9EE0-4FF3-A37D-2480DF85113A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33ED9DDD-9EE0-4FF3-A37D-2480DF85113A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{021BD1B5-AD9B-4C95-B2D0-27CB53C986F3} = {77E0E8EE-72B4-4D23-B121-8DE6DE79A3EA}
+		{46F91FEB-D628-4161-9ED2-4BBA09778C38} = {A2F0C8DF-CC3D-4958-B13C-B3DBFA63F822}
+		{949EF337-BD3E-46E9-A1D2-7A0802156431} = {A2F0C8DF-CC3D-4958-B13C-B3DBFA63F822}
+		{01AE8347-23C5-4668-90FC-B7637C93D9BA} = {71C5E17C-4F6A-469A-9684-26ECC6B8F7A2}
+		{966A8F14-6BA2-4939-B7DA-E5DC7873F5CA} = {01AE8347-23C5-4668-90FC-B7637C93D9BA}
+		{A7D5FA77-C585-4476-9A34-3E806476F86F} = {7C080E12-69A2-43BE-8EC8-0CF4E0BAF66D}
+		{58CB2319-340F-4D1D-88AB-26739C89D951} = {46F91FEB-D628-4161-9ED2-4BBA09778C38}
+		{63C611FA-2ABB-488C-90EC-93C554EB7CE8} = {949EF337-BD3E-46E9-A1D2-7A0802156431}
+		{CD2A8054-64F9-48E0-8EE9-7541131AB3BA} = {966A8F14-6BA2-4939-B7DA-E5DC7873F5CA}
+		{D3D6F7E8-56EA-46BA-82DE-EEC74901D224} = {8B658B1E-650C-404C-A11F-B7440D308903}
+		{9A0954CB-4ABD-4E83-A05D-95623B7C2A88} = {021BD1B5-AD9B-4C95-B2D0-27CB53C986F3}
+		{33ED9DDD-9EE0-4FF3-A37D-2480DF85113A} = {32807428-C068-4AAF-9796-73A1BEC316B7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CD0653CF-3F7F-48BE-8101-D160DE43E219}
+	EndGlobalSection
+EndGlobal

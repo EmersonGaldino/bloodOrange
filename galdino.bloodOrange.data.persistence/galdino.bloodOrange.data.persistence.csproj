@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.30" />
+    <PackageReference Include="MongoDB.Driver" Version="2.10.1" />
+    <PackageReference Include="MongoDB.Driver.Core" Version="2.10.1" />
+    <PackageReference Include="Npgsql" Version="4.1.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\galdino.bloodOrange.application.shared\galdino.bloodOrange.application.shared.csproj" />
+    <ProjectReference Include="..\galdino.bloodOrange.utils\galdino.bloodOrange.utils.csproj" />
+    <ProjectReference Include="..\galdino.bloodOrnage.application.core\galdino.bloodOrnage.application.core.csproj" />
+  </ItemGroup>
+
+</Project>
